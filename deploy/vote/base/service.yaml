@@ -5,6 +5,7 @@ metadata:
   labels:
     app: vote
     tier: front
+    annotations: kustomize.toolkit.fluxcd.io/prune: disabled
   name: vote
 spec:
   ports:
